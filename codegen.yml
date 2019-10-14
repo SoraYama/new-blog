@@ -1,0 +1,7 @@
+overwrite: true
+schema: 'http://localhost:8001/__graphql'
+generates:
+  src/graphql.d.ts:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
